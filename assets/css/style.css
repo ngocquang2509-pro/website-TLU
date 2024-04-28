@@ -1,0 +1,199 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: sans-serif;
+}
+#wrapp {
+  padding-top: 4px;
+  background-color: #122584;
+}
+
+/* header */
+#header {
+  margin-top: 4px;
+  padding: 16px 64px;
+  background-color: #fff;
+  display: flex;
+}
+#header .h-left {
+  flex: 5;
+}
+#header .h-right {
+  flex: 5;
+  text-align: right; /*chuyển các thẻ con nó sang bên phải*/
+  padding-right: 64px;
+}
+#header .h-right .wrapp-menu {
+  margin: 16px 0;
+}
+#header .h-right .wrapp-menu a {
+  text-decoration: none;
+  color: #333;
+}
+#header .h-right .search {
+  margin: 16px 0;
+}
+#header .h-left a .logo {
+  width: 80%;
+}
+#header .h-right img {
+  width: 3%;
+}
+/* body */
+#body {
+  height: fit-content;
+}
+#body .slider img {
+  width: 100%;
+  vertical-align: middle;
+}
+#body .slider,
+#body .b-header .nav-bar {
+  background-color: #122584;
+  padding: 0 130px;
+}
+#body .b-header .nav-bar .list a {
+  text-decoration: none;
+  color: #fff;
+}
+#body .b-header .nav-bar li {
+  display: inline-block;
+  color: #fff;
+  padding: 16px 8px;
+}
+
+#body .b-header .nav-bar .list .item1 {
+  position: relative;
+}
+#body .b-header .nav-bar .list .item1::before {
+  content: "";
+  display: block;
+  background-color: #ccc;
+  width: 1px;
+  height: 16px;
+  position: absolute;
+  left: 0;
+}
+#body .b-header .nav-bar .list .item1:hover {
+  background-color: #007bff;
+}
+#body .b-header .nav-bar .list .item1 .list-second {
+  position: absolute;
+  background-color: #007bff;
+  top: 48px;
+  left: 0;
+  display: none;
+  width: 300px;
+}
+#body .b-header .nav-bar .list .item1:hover .list-second {
+  display: block;
+}
+#body .b-header .nav-bar .list .item1 .list-second li {
+  display: block;
+}
+
+#body .b-content {
+  background-color: #fff;
+}
+#body .b-content .quicklink {
+  display: flex;
+  text-align: center;
+  padding: 25px 120px;
+  border-bottom: 1px solid #ccc;
+}
+#body .b-content .quicklink .link-content {
+  flex: 1;
+  color: #001373;
+}
+#body .b-content .quicklink .link-content p {
+  padding-top: 25px;
+}
+/* section-box */
+#body .section-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 130px;
+}
+#body .section-box .new-main {
+  flex: 2;
+  padding: 0px 16px;
+}
+#body .section-box .new-tab {
+  flex: 1;
+  padding: 0px 16px;
+  position: relative;
+}
+#body .section-box .new-tab .button {
+  padding: 12px 25px;
+  float: left;
+  border-top: 1px solid #ccc;
+}
+#body .section-box .new-tab ul {
+  position: absolute;
+  top: 50px;
+}
+#body .section-box .new-tab ul li {
+  padding: 8px 16px;
+  list-style: disc;
+}
+#body .section-box .list-item {
+  flex: 1;
+  padding: 0px 16px;
+}
+#body .section-box .list-item h1 {
+  padding: 8px 16px;
+  background-color: rgb(231, 232, 241);
+  text-align: center;
+  font-size: 22px;
+  color: rgb(0, 4, 99);
+}
+#body .section-box .list-item ul {
+  margin-top: 4px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+#body .section-box .list-item ul li {
+  padding: 8px;
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  color: rgb(0, 4, 99);
+}
+#footer {
+  color: #fff;
+}
+#footer .f-top {
+  padding: 16px 0px;
+  display: flex;
+  background-color: rgb(0, 78, 175);
+}
+#footer .f-top-left {
+  flex: 1;
+  margin-left: 130px;
+  font-size: 24px;
+}
+#footer .f-top-right {
+  flex: 1;
+  text-align: right;
+  margin-right: 130px;
+  font-size: 24px;
+}
+#footer .f-content {
+  display: flex;
+}
+#footer .f-content .map {
+  width: 25%;
+  padding: 20px 16px 20px 130px;
+}
+#footer .f-content .text {
+  padding: 20px 12px;
+}
+#footer .f-content .text h1 {
+  padding-bottom: 25px;
+  font-size: 25px;
+}
+#footer .f-content .text p {
+  padding-bottom: 8px;
+  font-size: 20px;
+}
