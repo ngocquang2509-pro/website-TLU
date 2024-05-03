@@ -104,7 +104,7 @@ html {
   border-bottom: 1px solid #ccc;
 }
 #body .b-content .quicklink .link-content {
-  flex: 1;
+  width: calc(100% / 6);
   color: #001373;
 }
 #body .b-content .quicklink .link-content p {

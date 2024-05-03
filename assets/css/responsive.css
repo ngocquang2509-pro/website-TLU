@@ -1,0 +1,92 @@
+/*PC*/
+@media (min-width: 1024px) {
+  #body .mobile-menu {
+    display: none;
+  }
+}
+@media (max-width: 740px) {
+  #header {
+    padding: 30px 14px;
+  }
+  #header .h-left {
+  }
+  #header .h-left a .logo {
+    width: 100%;
+  }
+  #header .h-right {
+    padding: 0;
+    flex: 2;
+  }
+  #header .h-right .wrapp-menu {
+    margin: 0;
+  }
+  #header .h-right .block {
+    display: block;
+    padding-bottom: 8px;
+  }
+  #header .h-right .image {
+    width: 20%;
+  }
+  #header .h-right .search {
+    display: none;
+  }
+  #body .b-content .quicklink {
+    display: block;
+  }
+  #body .section-box {
+    display: block;
+  }
+  #footer .f-content {
+    display: block;
+  }
+
+  #body .b-header .nav-bar .list {
+    display: none;
+  }
+  #body .b-header .slider {
+    width: 100%;
+    padding: 0;
+  }
+  #body .b-header .slider img {
+    width: 92%;
+    padding: 0;
+    padding-left: 13px;
+  }
+  #body .b-header .mobile-menu {
+    padding: 0 12px;
+  }
+  #body .b-header .mobile-menu .ti-menu {
+    color: #fff;
+    width: 25%;
+    padding-right: 12px;
+    line-height: 44px;
+  }
+  #body .b-header .mobile-menu .text-box-search {
+    width: 89%;
+  }
+  #body .b-content .quicklink {
+    padding: 0.1px 12px;
+    display: flex;
+    flex-wrap: wrap; /* các phần tử con sẽ tự động xuống dòng khi không đủ không gian*/
+    justify-content: center;
+  }
+  #body .b-content .quicklink .link-content {
+    margin-top: 12px;
+    width: 25%;
+  }
+  #body .section-box {
+    padding: 0;
+  }
+  #body .section-box .new-tab .button {
+    padding: 12px 46px;
+  }
+  #body .section-box .list-item {
+    padding: 70px 12px;
+  }
+  #body .section-box .new-tab ul {
+    position: relative;
+  }
+  #body .picture img {
+    width: 100%;
+  }
+}
